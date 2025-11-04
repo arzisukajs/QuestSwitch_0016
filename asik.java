@@ -97,7 +97,24 @@ public class asik {
             double nilaiPilihan = 0;
 
             switch (pilihan) {
-                
+                case 1:
+                    nilaiPilihan = strukturData;
+                    break;
+                case 2:
+                    nilaiPilihan = pbo;
+                    break;
+                case 3:
+                    nilaiPilihan = basisData;
+                    break;
+                case 4:
+                    nilaiPilihan = algoritma;
+                    break;
+                case 5:
+                    nilaiPilihan = rpl;
+                    break;
+                default:
+                    System.out.println("Pilihan tidak valid.");
+                    System.exit(0);
             }
     }
 }
