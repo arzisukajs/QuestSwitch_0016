@@ -94,6 +94,7 @@ public class asik {
             System.out.println("5. Rekayasa Perangkat Lunak");
 
             int pilihan = ns.nextInt();
+            double nilaiPilihan = 0;
     }
 }
 }
