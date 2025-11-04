@@ -118,7 +118,12 @@ public class asik {
             }
             if (nilaiPilihan >= 75) {
                 System.out.println("Selamat! Anda eligible untuk menjadi Asisten Dosen pada mata kuliah yang dipilih.");
+            } else {
+                System.out.println("Maaf, Anda belum memenuhi syarat untuk posisi tersebut.");
             }
+        } else {
+            System.out.println("Maaf, Anda belum memenuhi syarat untuk mendaftar sebagai Asisten Dosen.");
+        }
+        ns.close();
     }
-}
 }
