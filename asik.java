@@ -62,5 +62,8 @@ public class asik {
 
         System.out.println("Masukkan nilai Algoritma dan Pemrograman: ");
         double algoritma = ns.nextDouble();
+
+        System.out.println("Masukkan nilai Rekayasa Perangkat Lunak: ");
+        double rpl = ns.nextDouble();
     }
 }
