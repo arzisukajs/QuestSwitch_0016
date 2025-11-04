@@ -51,19 +51,19 @@ public class asik {
     public static void main(String[] args) {
         Scanner ns = new Scanner(System.in);
 
-        System.out.println("Masukkan nilai Struktur Data: ");
+        System.out.print("Masukkan nilai Struktur Data: ");
         double strukturData = ns.nextDouble();
 
-        System.out.println("Masukkan nilai Pemrograman Berorientasi Objek: ");
+        System.out.print("Masukkan nilai Pemrograman Berorientasi Objek: ");
         double pbo = ns.nextDouble();
 
-        System.out.println("Masukkan nilai Basis Data: ");
+        System.out.print("Masukkan nilai Basis Data: ");
         double basisData = ns.nextDouble();
 
-        System.out.println("Masukkan nilai Algoritma dan Pemrograman: ");
+        System.out.print("Masukkan nilai Algoritma dan Pemrograman: ");
         double algoritma = ns.nextDouble();
 
-        System.out.println("Masukkan nilai Rekayasa Perangkat Lunak: ");
+        System.out.print("Masukkan nilai Rekayasa Perangkat Lunak: ");
         double rpl = ns.nextDouble();
 
         double rataRata = (strukturData + pbo + basisData + algoritma + rpl) / 5;
