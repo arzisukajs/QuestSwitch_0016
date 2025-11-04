@@ -50,5 +50,8 @@ import java.util.Scanner;
 public class asik {
     public static void main(String[] args) {
         Scanner ns = new Scanner(System.in);
+
+        System.out.println("Masukkan nilai Struktur Data: ");
+        double strukturData = ns.nextDouble();
     }
 }
