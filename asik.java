@@ -80,8 +80,18 @@ public class asik {
         } else {
             predikat = "C (Kurang)";
         }
-        
+
         System.out.println("Rata-rata nilai: " + rataRata);
         System.out.println("Predikat: " + predikat);
+
+        if (predikat.equals("A (Sangat Baik)") || predikat.equals("AB (Baik Sekali)")) {
+            System.out.println("Anda memenuhi syarat untuk mendaftar sebagai Asisten Dosen.");
+            System.out.println("Pilih mata kuliah yang ingin diajukan sebagai Asisten Dosen:");
+            System.out.println("1. Struktur Data");
+            System.out.println("2. Pemrograman Berorientasi Objek");
+            System.out.println("3. Basis Data");
+            System.out.println("4. Algoritma dan Pemrograman");
+            System.out.println("5. Rekayasa Perangkat Lunak");
     }
+}
 }
