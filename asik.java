@@ -95,6 +95,10 @@ public class asik {
 
             int pilihan = ns.nextInt();
             double nilaiPilihan = 0;
+
+            switch (pilihan) {
+                
+            }
     }
 }
 }
