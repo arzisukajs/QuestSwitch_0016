@@ -80,5 +80,8 @@ public class asik {
         } else {
             predikat = "C (Kurang)";
         }
+        
+        System.out.println("Rata-rata nilai: " + rataRata);
+        System.out.println("Predikat: " + predikat);
     }
 }
