@@ -116,6 +116,9 @@ public class asik {
                     System.out.println("Pilihan tidak valid.");
                     System.exit(0);
             }
+            if (nilaiPilihan >= 75) {
+                System.out.println("Selamat! Anda eligible untuk menjadi Asisten Dosen pada mata kuliah yang dipilih.");
+            }
     }
 }
 }
