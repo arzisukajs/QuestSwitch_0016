@@ -65,5 +65,10 @@ public class asik {
 
         System.out.println("Masukkan nilai Rekayasa Perangkat Lunak: ");
         double rpl = ns.nextDouble();
+
+        double rataRata = (strukturData + pbo + basisData + algoritma + rpl) / 5;
+        String predikat;
+
+        
     }
 }
