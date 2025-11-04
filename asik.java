@@ -69,6 +69,16 @@ public class asik {
         double rataRata = (strukturData + pbo + basisData + algoritma + rpl) / 5;
         String predikat;
 
-        
+        if (rataRata >= 3.75) {
+            predikat = "A (Sangat Baik)";
+        } else if (rataRata >= 3.50) {
+            predikat = "AB (Baik Sekali)";
+        } else if (rataRata >= 3.00) {
+            predikat = "B (Baik)";
+        } else if (rataRata >= 2.50) {
+            predikat = "BC (Cukup)";
+        } else {
+            predikat = "C (Kurang)";
+        }
     }
 }
