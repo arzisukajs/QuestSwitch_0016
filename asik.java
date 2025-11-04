@@ -56,5 +56,8 @@ public class asik {
 
         System.out.println("Masukkan nilai Pemrograman Berorientasi Objek: ");
         double pbo = ns.nextDouble();
+
+        System.out.println("Masukkan nilai Basis Data: ");
+        double basisData = ns.nextDouble();
     }
 }
