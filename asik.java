@@ -67,6 +67,7 @@ public class asik {
         double rpl = ns.nextDouble();
 
         double rataRata = (strukturData + pbo + basisData + algoritma + rpl) / 5;
+        double ipk = (rataRata / 100) * 4;
         String predikat;
 
         if (rataRata >= 3.75) {
@@ -82,6 +83,7 @@ public class asik {
         }
 
         System.out.println("Rata-rata nilai: " + rataRata);
+        System.out.println("ipk" + ipk);
         System.out.println("Predikat: " + predikat);
 
         if (predikat.equals("A (Sangat Baik)") || predikat.equals("AB (Baik Sekali)")) {
