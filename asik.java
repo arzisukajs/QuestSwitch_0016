@@ -126,6 +126,7 @@ public class asik {
         } else {
             System.out.println("Maaf, Anda belum memenuhi syarat untuk mendaftar sebagai Asisten Dosen.");
         }
+        System.out.println(" ");
         ns.close();
     }
 }
